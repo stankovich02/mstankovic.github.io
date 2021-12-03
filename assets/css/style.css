@@ -200,7 +200,7 @@ nav ul li a:hover {
 #about-picture {
     width: 350px;
     height: 350px;
-    background-image: url('../img/aboutslika.JPG');
+    background-image: url('../img/aboutslika.jpg');
     background-size: cover;
     background-position: 0px -50px;
     float: right;
