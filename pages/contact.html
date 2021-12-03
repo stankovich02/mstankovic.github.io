@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <!----meta tags---->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="keywords" content="Portfolio , html, css">
+		<meta name="description" content="This is my Portfolio">
+		<meta name="author" content="Marko Stankovic">
+	
+		<!----Icons---->
+		<link rel="icon" href="../assets/img/favicon.ico" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+		<script src="https://kit.fontawesome.com/4c17e1ea7e.js" crossorigin="anonymous"></script>
+    
+		<!----Google Fonts---->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <!----CSS---->
+		<link rel="stylesheet" type="text/css" href="../assets/css/contact.css" />
+    </head>
+    <body>
+            <!------------------------->
+            <!------header starts------>
+            <!------------------------->
+                <header id="header">
+                    <div class="center-block">
+                        <a href="../index.html">
+                            <div id="logo"></div>
+                        </a>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="../index.html#section1">Home</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="../index.html#section2">About me</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="../index.html#section3">Services</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="../index.html#section4">Skills</a>
+                                </li>
+    
+                                <li>
+                                    <a href="gallery.html">Gallery</a>
+                                </li>
+    
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="cleaner"></div>
+                    </div>
+                </header>
+        <!------------------------->
+        <!-------header ends------->
+        <!------------------------->
+        </div>
+        <section id="contact">
+            <div class="center-block">
+            <h2>Contact <span class="red">me:</span></h2>
+            <form id="contactForm" method="post" action="contact.php">   
+                    <input type="text" id="name" maxlength="30" placeholder="Your name...">
+                    <input type="email" id="email" autocomplete="on" maxlength="40" placeholder="Your email...">
+                    <input type="text" id="subject"  maxlength="20" placeholder="Subject">
+                    <select>
+                        <option value="0">Choose service:</option>
+                        <optgroup label="Web">
+                            <option value="1">Web development</option>
+                            <option value="2">Web design</option>
+                        </optgroup>
+                        <optgroup label="Video">
+                        <option value="3">Video editing</option>
+                         </optgroup>
+                         <optgroup label="Photo">
+                        <option value="4">Photoshop</option>
+                    </optgroup>
+                    </select>
+                    <textarea id="message" rows="10" cols="50" placeholder="Your message..."></textarea>
+                    <button type="submit" class="buttons">Submit</button>
+                    <button type="reset" class="buttons">Cancel</button>
+            </form>
+        </div>
+      </section> 
+        <footer id="footer">
+			<a href="#">
+				<div id="arrow-to-top">
+					<i class="zmdi zmdi-chevron-up arrow"></i>
+				</div>
+			</a>
+			<div class="center-block">
+                <div id="footer-text">
+                    <span class="follow footer-title">Follow <span class="red">me:</span></span>
+                    <span class="contact footer-title">Contact <span class="red">me:</span></span>
+                    <div class="cleaner"></div>
+                </div>
+                <div id="footer-icons">
+                    <div id="social-icons">
+                        <a href="https://www.facebook.com/markoni.stankovic/" target="_blank"><i class="zmdi zmdi-facebook-box social-icon"></i></a> 
+                        <a href="https://www.instagram.com/__stannkovic/" target="_blank"><i class="zmdi zmdi-instagram social-icon"></i></a>
+                        <a href="https://twitter.com/markostanke2002" target="_blank"><i class="zmdi zmdi-twitter-box social-icon"></i></a>
+                        <a href="https://www.linkedin.com/in/marko-stankovic-bb25541b8/" target="_blank"><i class="zmdi zmdi-linkedin-box social-icon"></i></a>
+                        <a href="../sitemap.xml" target="_blank"><i class="fas fa-sitemap social-icon"></i></a>
+                        <a href="../rss.xml" target="_blank"><i class="zmdi zmdi-rss social-icon"></i></a>
+                        <div class="cleaner"></div>
+                    </div>
+                    <div id="contact-icons">
+                        <span class="myinfo"><i class="zmdi zmdi-pin myinfo-icon"><p> Pesnicka 8, Kovin</p></i><div class="cleaner"></div></span>
+                        <span class="myinfo"><i class="zmdi zmdi-smartphone-android myinfo-icon" ><p> 060/11 45 178</p></i><div class="cleaner"></div></span>
+                        <span class="myinfo"><i class="zmdi zmdi-email myinfo-icon"> <p>marko&#46;stankovic&#46;41&#46;21&#64;ict&#46;edu&#46;rs</p></i><div class="cleaner"></div></span>
+                    </div>
+                </div>
+			</div>
+	    </footer>
+		<!-------------------->
+		<!-----footer ends---->
+		<!-------------------->
+		<div id="copyright">
+			<div class="center-block">
+                <p>Copyright &copy 2021 Marko Stankovic. All Rights Reserved.</p>
+                <div class="cleaner"></div>
+            </div>
+		</div>
+    </body>
+</html>
