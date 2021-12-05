@@ -96,15 +96,15 @@ nav ul li a:hover {
     color: white;
     letter-spacing: 2px;
 }
-#intro h2{
+h2:first-child{
     font-size: 45px;
     color: #ff2717;
 }
-#intro p{
+h2:nth-child(3){
     margin: 0px auto;
-    font-size: 25px;
     font-style: italic;
     color: #ff2717;
+    letter-spacing: 1px;
 }
 #buttons{
     width: 100%;
@@ -164,7 +164,7 @@ nav ul li a:hover {
     float: left;
     margin-top: 10%;
 }
-#about-text #title-about {
+#about-text h2 {
     font-size: 40px;
     margin-left: 34%;
     font-weight: bold;
@@ -231,7 +231,7 @@ nav ul li a:hover {
     position: center;
     margin-left: 40%;
 }
-#title-services {
+#section3 h2{
     width: 100%;
     font-size: 40px;
     font-weight: bold;
@@ -287,7 +287,7 @@ nav ul li a:hover {
     background-image: url('../img/services.jpg');
     background-position-x: -550px;
 }
-.services-text {
+#section3 h3{
     font-size: 20px;
     font-weight: bold;
     margin-top: 70px;
@@ -297,7 +297,7 @@ nav ul li a:hover {
 #section4 {
     width: 100vw;
 }
-#title-skills {
+#section4 h2{
     width: 100%;
     font-size: 40px;
     font-weight: bold;
@@ -419,8 +419,7 @@ label {
     margin-right: 30px;
 }
 #footer-icons{
-    width: 100%;
-    
+    width: 100%;  
 }
 #social-icons{
     float:left;
