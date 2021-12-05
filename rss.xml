@@ -4,6 +4,7 @@
 			<title>Portfolio | Home</title>
 			<link>https://stankovich02.github.io/mstankovic.github.io/index.html</link>
 			<description>Notifications about changes in my portfolio</description>
+</channel>
 		<item>
 			<title>About me</title>
 			<link>https://stankovich02.github.io/mstankovic.github.io/index.html#section2</link>
@@ -19,5 +20,5 @@
 			<link>https://stankovich02.github.io/mstankovic.github.io/index.html#section4</link>
 			<description>Changes about my skills</description>
 		</item>
-	</channel>
+	
 	</rss>
