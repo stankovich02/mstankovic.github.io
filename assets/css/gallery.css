@@ -37,7 +37,6 @@ html{
 ::-webkit-scrollbar {
     width: 7px;
 }
-
 ::-webkit-scrollbar-thumb {
     background: #f71a0a;
     
@@ -60,8 +59,7 @@ body {
 }
 .center-block {
     margin: 0px auto;
-    width: 80vw;
-    
+    width: 80vw;   
 }
 .red {
     color: #f71a0a;
@@ -72,7 +70,7 @@ h1{
     letter-spacing: 3px;
     animation: fadeIn 3s;
 }
-/*HEADER*/
+    /*HEADER*/
 header {
     width: 100%;
     background-color: #000000;
@@ -105,7 +103,6 @@ nav ul li a:hover {
     padding: 10px;
     border-radius: 30px;
 }
-
 #pictures{
     width:100%;
     display: flex;
@@ -134,12 +131,11 @@ img:nth-child(1), img:nth-child(4){
 img:nth-child(3), img:nth-child(6){
     animation: slide-to-left 2s ;
 }
-/*FOOTER*/
+    /*FOOTER*/
 #footer {
     width: 100vw;
     height: 400px;
-    margin: 300px 0px 150px 0px ;
-    
+    margin: 300px 0px 150px 0px ;    
 }
 #footer .center-block{
     height: 400px;

@@ -7,7 +7,6 @@
         opacity: 1;
     }
 }
-
 *{
     margin: 0px;
     padding: 0px;
@@ -15,11 +14,9 @@
 html{
     scroll-behavior: smooth;
 }
-
 ::-webkit-scrollbar {
     width: 7px;
 }
-
 ::-webkit-scrollbar-thumb {
     background: #f71a0a;  
     border-radius: 10px;
@@ -113,11 +110,11 @@ nav ul li a:hover {
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 1px;
-  }
-  #contact input:focus{
+}
+#contact input:focus{
     background-color: #0d0a0a;
-  }
-  #contact select{
+}
+#contact select{
     width: 430px;
     height: 40px;
     font-family: 'Ubuntu', sans-serif;
@@ -128,8 +125,8 @@ nav ul li a:hover {
     border: none;
     border-bottom:  1px solid gray;
     letter-spacing: 1px;
-  }
-  #contact textarea{
+}
+#contact textarea{
     width: 400px;
     display: inline-block;
     border-radius: 8px;
@@ -145,11 +142,11 @@ nav ul li a:hover {
     resize: none;
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1px;
-  }
-  #contact textarea:focus{
+}
+#contact textarea:focus{
    background-color: #0d0a0a;
-  }
-  #contact .buttons{
+}
+#contact .buttons{
     padding: 10px 20px;
     width: 200px;
     font-family: 'Ubuntu', sans-serif;
@@ -163,13 +160,13 @@ nav ul li a:hover {
     margin-right: 15px;
     font-weight: bold;
     text-transform: uppercase;
-  }
-  #contact .buttons:hover{
+}
+#contact .buttons:hover{
     cursor: pointer;
     background-color: #f71a0a;
     color: white;
     transition: ease-in-out 0.2s;
-  }
+}
     /*FOOTER*/
 #footer {
     width: 100vw;
