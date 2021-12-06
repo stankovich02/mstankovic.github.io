@@ -32,7 +32,7 @@ body {
     overflow: scroll;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    animation: fadeIn 2s;
+    animation: fadeIn 1s;
 }
 a {
     text-decoration: none;
