@@ -70,6 +70,11 @@ h1{
     letter-spacing: 3px;
     animation: fadeIn 3s;
 }
+.active-link a{
+    background: #f71a0a;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
     /*HEADER*/
 header {
     width: 100%;
@@ -116,6 +121,7 @@ img{
     transition: 0.5s;
     border-radius: 50px;
     box-shadow: 15px 15px 20px black;
+    
 }
 img:hover{
     filter:grayscale(0);
@@ -126,10 +132,10 @@ img:nth-child(2), img:nth-child(5)
     margin: 0px 150px 0px 150px;
 }
 img:nth-child(1), img:nth-child(4){
-    animation: slide-to-right 2s ;
+    animation: slide-to-right 1.5s ;
 }
 img:nth-child(3), img:nth-child(6){
-    animation: slide-to-left 2s ;
+    animation: slide-to-left 1.5s ;
 }
     /*FOOTER*/
 footer {
