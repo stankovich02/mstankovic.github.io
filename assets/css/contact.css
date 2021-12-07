@@ -93,7 +93,7 @@ nav ul li a:hover {
     /*CONTACT FORM*/
 #contact{
     width: 450px;
-    padding: 80px 40% 0px 40%;
+    padding: 80px 40vw 0px 40vw;
     font-size: 25px;
     margin: 0px auto;
     display: flex;

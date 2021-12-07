@@ -113,10 +113,11 @@ nav ul li a:hover {
     padding: 10px;
     border-radius: 30px;
 }
-#pictures{
-    width:100%;
+#pictures .center-block{
     display: flex;
     margin-top: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 img{
     width: 400px;
@@ -132,10 +133,10 @@ img:hover{
     filter:grayscale(0);
     transform: scale(1.2);
 }
-img:nth-child(2), img:nth-child(5)
+/*img:nth-child(2), img:nth-child(5)
 {
     margin: 0px 150px 0px 150px;
-}
+}*/
 img:nth-child(1), img:nth-child(4){
     animation: slide-to-right 1.5s ;
 }
