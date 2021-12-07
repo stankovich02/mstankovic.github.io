@@ -62,13 +62,18 @@ body {
 .red {
     color: #f71a0a;
 }
+#container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
 h1{
     font-size: 40px;
     margin-top: 50px;
     text-transform: uppercase;
-    text-align: center;
     letter-spacing: 3px;
-    animation: fadeIn 3s;
+    text-align: center;
+    animation: slide-to-left 1.5s;
 }
 .active-link a{
     background: #f71a0a;
