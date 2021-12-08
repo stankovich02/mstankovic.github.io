@@ -45,8 +45,7 @@ html{
     width: 7px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #f71a0a;
-    
+    background: #f71a0a; 
     border-radius: 10px;
 }
 body {
@@ -133,8 +132,7 @@ img{
     filter: grayscale(100%);
     transition: 0.5s;
     border-radius: 50px;
-    box-shadow: 15px 15px 20px black;
-    
+    box-shadow: 15px 15px 20px black;  
 }
 img:hover{
     filter:grayscale(0);
