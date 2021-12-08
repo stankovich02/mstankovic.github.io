@@ -1,12 +1,3 @@
-@keyframes fadeIn{
-    from{
-        opacity: 0;
-    }
-    
-    to{
-        opacity: 1;
-    }
-}
 @keyframes slide-to-right{
     0%{
         transform: translateX(-1500px);
@@ -18,6 +9,22 @@
 @keyframes slide-to-left{
     0%{
         transform: translateX(1500px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+@keyframes slide-to-top{
+    0%{
+        transform: translateY(1500px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+@keyframes slide-to-bottom{
+    0%{
+        transform: translateY(-1500px);
     }
     100%{
         transform: translate(0px);
@@ -73,7 +80,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
-    animation: slide-to-left 2s;
+    animation: slide-to-left 3s;
 }
 .active-link a{
     background: #f71a0a;
@@ -133,21 +140,23 @@ img:hover{
     filter:grayscale(0);
     transform: scale(1.2);
 }
-/*img:nth-child(2), img:nth-child(5)
-{
-    margin: 0px 150px 0px 150px;
-}*/
 img:nth-child(1), img:nth-child(4){
-    animation: slide-to-right 1.5s ;
+    animation: slide-to-right 2s ;
 }
 img:nth-child(3), img:nth-child(6){
-    animation: slide-to-left 1.5s ;
+    animation: slide-to-left 2s;
+}
+img:nth-child(2){
+    animation: slide-to-bottom 2s;
+}
+img:nth-child(5){
+    animation: slide-to-top 2s;
 }
     /*FOOTER*/
 footer {
     width: 100vw;
     height: 350px;
-    margin: 500px 0px 150px 0px; 
+    margin-top: 500px;
 }
 footer .center-block{
     height: 300px;
@@ -180,7 +189,7 @@ footer .center-block{
 }
 #contact-icons{
     width: 500px;
-    height: 400px;
+    height: 100px;
     text-align: right;
     float: right;
     margin-top: 120px;
@@ -228,12 +237,13 @@ footer .center-block{
 }
 #copyright{
     width: 100%;
-    height: 100px;
+    height: 70px;
     background-color: #000000;
-    text-align: right;
+    display: flex;
+    justify-content: center;
 }
 #copyright p{
-    padding-top: 40px;
+    padding-top: 20px;
     font-size: 20px;
     color:white;
 }
