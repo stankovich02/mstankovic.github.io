@@ -55,12 +55,19 @@ a {
 .red {
     color: #f71a0a;
 }
-.active-link{
-    background: #f71a0a;
-    padding: 10px 10px;
-    border-radius: 30px;
+#active-link{
+    margin: 45px 25px;
 }
-    /*HEADER*/
+#active-link a{
+    background: transparent;
+    border: 2px solid #ff6600;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+ /*HEADER*/
 header {
     width: 100%;
     background-color: #000000;
@@ -73,6 +80,10 @@ header {
     background-position: center;
     float: left;
 }
+nav{
+    display: flex;
+    float: right;
+}
 nav ul {
     list-style-type: none;
     text-align: right;
@@ -83,9 +94,9 @@ nav ul li {
     font-weight: bold;
     font-size: 15px;
     letter-spacing: 3px;
-    display: inline-block;  
+    display: inline-block;   
 }
-nav ul li a:hover {
+nav ul li a:hover{
     background: #f71a0a;
     padding: 10px;
     border-radius: 30px;
